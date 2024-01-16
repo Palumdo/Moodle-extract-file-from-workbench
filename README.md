@@ -1,5 +1,10 @@
 # Moodle-extract-file-from-workbench
-A bash script for mac and one for PC to extract file submitted in a workshop. 
+A bash script for mac and one for PC to extract file submitted in a workshop.
+
+You need to know how to backup an activity, save it in a directory, extract it with a zip application and execute command line...
+
+For mac you'll have to install xmlstarlet (https://macappstore.org/xmlstarlet/ or else where you are confident).
+
 To extract the file of a workshop :
 
 1.Backup the workshop activity
