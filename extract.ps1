@@ -42,12 +42,6 @@ foreach ($file in $fileData.files.file) {
 
                 # Déplacer le fichier
                 Move-Item -Path $sourcePath -Destination $destinationPath
-
-                # Lire le contenu du fichier en UTF-8
-                $content = Get-Content -Path $destinationPath -Encoding UTF8
-
-                # Écrire le contenu du fichier en UTF-8
-                $content | Set-Content -Path $destinationPath -Encoding UTF8
             }
         }
     }
